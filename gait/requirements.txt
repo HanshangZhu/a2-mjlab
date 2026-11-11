@@ -1,0 +1,5 @@
+# The training environment (.venv-gait), separate from the simulation's .venv: mjlab runs
+# MuJoCo Warp on the GPU and brings its own MuJoCo (3.11.0), newer than the one the Unreal
+# link is pinned to.
+#   uv venv .venv-gait --python 3.12 && uv pip install --python .venv-gait/bin/python -r gait/requirements.txt
+mjlab==1.6.0
